@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/skateboard.jpg");
+  background-image: url("../images/deerbackground.jpeg");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: fixed;
@@ -44,10 +44,11 @@ ul {
 
 .contentboxes {
   background-color: white;
+  font-family: Merriweather;
 }
 
 .arrowright {
-  background-color: ;
+  background-color: red;
   color: white;
   width: 0;
 	height: 0;
@@ -61,4 +62,8 @@ ul {
   padding-right: 30px;
   position: absolute;
   float: left;*/
+}
+
+.skateboards {
+  background-color: white;
 }

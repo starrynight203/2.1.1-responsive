@@ -1,0 +1,43 @@
+body {
+  background-image: url("../images/skateboard.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.container, .col {
+  /*background-color: red;*/
+  border: 2px solid white;
+}
+.subscribe-link {
+  float: right;
+  padding-right: 30px;
+  color: white;
+}
+
+.social-links a {
+  color: white;
+}
+
+.media {
+  height: 60px;
+}
+
+.primary-nav a {
+  color: white;
+  background-color: red;
+}
+
+.bannerimg {
+  height: 338px;
+  border: 10px solid white;
+}

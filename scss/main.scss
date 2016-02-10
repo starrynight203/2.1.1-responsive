@@ -1,0 +1,149 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$grid-gutter-width: 10px;
+
+@media (min-width: 768px){
+ // the  rules go in here
+
+
+ }
+
+body {
+  background-image: url("../images/deerbackground.jpeg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.container, .col {
+  /*background-color: red;*/
+  border: 2px solid white;
+}
+.subscribe-link {
+  float: right;
+  padding-right: 30px;
+  color: white;
+}
+
+.social-links {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+.social-links a {
+  color: white;
+}
+
+.media {
+  height: 60px;
+}
+
+.primary-nav a {
+  color: white;
+  background-color: red;
+}
+
+.bannerimg {
+  height: 338px;
+  border: 10px solid white;
+}
+
+.contentboxes {
+  background-color: white;
+  background-clip: content-box;
+  height: 350px;
+  h1 {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+.contentboxes {
+  h3 {
+    font-size: 10px;
+    color: #cccccc;
+    text-align: left;
+  }
+}
+
+.contentboxes {
+  p {
+    font-size: 10px;
+    text-align: left;
+  }
+}
+
+.contentboxes {
+  h2 {
+    font-size: 10px;
+    a {
+      text-decoration: none;
+      color: red;
+    }
+  }
+}
+
+/*.arrowright {
+  background-color: red;
+  color: white;
+  width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;*/
+
+	/*border-left: 60px solid red;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-left: 13px;
+  padding-right: 30px;
+  position: absolute;
+  float: left; */
+
+
+.profilepic1 {
+  background-image: url("../images/sk8er-4.png");
+  height: 220px;
+  width: 322px;
+  border: 2px solid white;
+}
+
+.profilepic2 {
+  background-image: url("../images/sk8er-3.png");
+  height: 220px;
+  width: 322px;
+  border: 2px solid white;
+}
+
+.profilepic4 {
+  background-image: url("../images/sk8er-2.png");
+  height: 466px;
+  width: 324px;
+  border: 2px solid white;
+}
+
+.profilepic3 {
+  background-image: url("../images/sk8er-1.png");
+  height: 219px;
+  width: 667px;
+  border: 2px solid white;
+}
+
+.skateboards {
+  background-color: white;
+  height: 296px;
+  width: 1022;
+}

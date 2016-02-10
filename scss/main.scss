@@ -6,11 +6,14 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 $grid-gutter-width: 10px;
 
-@media (min-width: 768px){
- // the  rules go in here
 
+ @media only screen and (max-width: 480px) {
+.container {
+        width: 100%;
+        background: #aaaaaa;
+}
 
- }
+}
 
 body {
   background-image: url("../images/deerbackground.jpeg");
@@ -28,10 +31,22 @@ ul {
   list-style: none;
 }
 
-.container, .col {
-  /*background-color: red;*/
-  border: 2px solid white;
+@keyframes growing-text {
+  0% {
+    font-size: 10px;
+  }
+  30% {
+    font-size: 15px;
+  }
+  100% {
+    font-size: 25px;
+  }
 }
+
+.subscribe-link {
+  animation: growing-text 6s infinite;
+}
+
 .subscribe-link {
   float: right;
   padding-right: 30px;
@@ -62,12 +77,16 @@ ul {
   border: 10px solid white;
 }
 
+.contentbox {
+  margin-top: 65px;
+}
+
 .contentboxes {
   background-color: white;
   background-clip: content-box;
   height: 350px;
   h1 {
-    font-size: 20px;
+    font-size: 27px;
     text-align: left;
   }
 }
@@ -82,7 +101,7 @@ ul {
 
 .contentboxes {
   p {
-    font-size: 10px;
+    font-size: 17px;
     text-align: left;
   }
 }
@@ -113,6 +132,9 @@ ul {
   position: absolute;
   float: left; */
 
+.profile {
+  margin-top: 35px;
+}
 
 .profilepic1 {
   background-image: url("../images/sk8er-4.png");
@@ -145,5 +167,10 @@ ul {
 .skateboards {
   background-color: white;
   height: 296px;
-  width: 1022;
+  width: 700px;
+  margin-top: 26px;
+}
+
+.formgroup  {
+  border: 1px solid gray;
 }
